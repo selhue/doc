@@ -212,7 +212,7 @@ function parseDocFromURLPath() {
 function init() {
   const lines = parseDocFromURLPath();
   if (lines.length) {
-    renderDoc(lines);
+    
     setTimeout(downloadDocImage, 300);
   } else {
     renderDoc(defaultSample);
